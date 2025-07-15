@@ -42,8 +42,7 @@ The analyzer expects a JSON file containing an array of event objects. Each even
 ```json
 [
   { "timestamp": 0.0, "event_id": "drone1-takeoff-init", "display_name": "Drone 1 – Takeoff Initialized", "category": "maneuver" },
-  { "timestamp": 0.3, "event_id": "drone1-takeoff-init", "display_name": "Drone 1 – Takeoff Init Complete", "category": "maneuver" },
-  ...
+  { "timestamp": 0.3, "event_id": "drone1-takeoff-init", "display_name": "Drone 1 – Takeoff Init Complete", "category": "maneuver" }
 ]
 ```
 
