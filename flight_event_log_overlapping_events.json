@@ -1,0 +1,40 @@
+[
+  { "timestamp": 0.0, "event_id": "drone1-takeoff-init", "display_name": "Drone 1 – Takeoff Initialized", "category": "maneuver" },
+  { "timestamp": 0.3, "event_id": "drone1-takeoff-init", "display_name": "Drone 1 – Takeoff Init Complete", "category": "maneuver" },
+
+  { "timestamp": 0.1, "event_id": "drone1-gps-lock", "display_name": "Drone 1 – GPS Signal Acquired", "category": "sensor" },
+  { "timestamp": 0.4, "event_id": "drone1-gps-lock", "display_name": "Drone 1 – GPS Lock Stable", "category": "sensor" },
+
+  { "timestamp": 0.2, "event_id": "drone1-imu-calibration", "display_name": "Drone 1 – IMU Calibration Start", "category": "sensor" },
+  { "timestamp": 0.5, "event_id": "drone1-imu-calibration", "display_name": "Drone 1 – IMU Calibration Done", "category": "sensor" },
+
+  { "timestamp": 0.4, "event_id": "drone1-preflight-checks", "display_name": "Drone 1 – Preflight Checks Start", "category": "infrastructure" },
+  { "timestamp": 0.7, "event_id": "drone1-preflight-checks", "display_name": "Drone 1 – Preflight Checks Complete", "category": "infrastructure" },
+
+  { "timestamp": 0.6, "event_id": "drone1-takeoff", "display_name": "Drone 1 – Takeoff Initiated", "category": "maneuver" },
+  { "timestamp": 1.2, "event_id": "drone1-takeoff", "display_name": "Drone 1 – Takeoff Complete", "category": "maneuver" },
+
+  { "timestamp": 1.0, "event_id": "drone1-set-course", "display_name": "Drone 1 – Setting Navigation Course", "category": "navigation" },
+  { "timestamp": 1.5, "event_id": "drone1-set-course", "display_name": "Drone 1 – Navigation Course Set", "category": "navigation" },
+
+  { "timestamp": 1.3, "event_id": "drone1-adjust-speed", "display_name": "Drone 1 – Speed Adjustment Started", "category": "control" },
+  { "timestamp": 1.7, "event_id": "drone1-adjust-speed", "display_name": "Drone 1 – Speed Adjustment Complete", "category": "control" },
+
+  { "timestamp": 1.5, "event_id": "drone1-accelerate", "display_name": "Drone 1 – Accelerating to Cruise Speed", "category": "control" },
+  { "timestamp": 2.0, "event_id": "drone1-accelerate", "display_name": "Drone 1 – Acceleration Complete", "category": "control" },
+
+  { "timestamp": 1.9, "event_id": "drone1-cruising", "display_name": "Drone 1 – Cruising Start", "category": "maneuver" },
+  { "timestamp": 3.0, "event_id": "drone1-cruising", "display_name": "Drone 1 – Cruising End", "category": "maneuver" },
+
+  { "timestamp": 2.8, "event_id": "drone1-descend", "display_name": "Drone 1 – Beginning Descent", "category": "maneuver" },
+  { "timestamp": 3.5, "event_id": "drone1-descend", "display_name": "Drone 1 – Descent Complete", "category": "maneuver" },
+
+  { "timestamp": 3.4, "event_id": "drone1-landing-procedure", "display_name": "Drone 1 – Landing Procedure Initiated", "category": "maneuver" },
+  { "timestamp": 4.0, "event_id": "drone1-landing-procedure", "display_name": "Drone 1 – Landing Procedure Complete", "category": "maneuver" },
+
+  { "timestamp": 3.9, "event_id": "drone1-touchdown", "display_name": "Drone 1 – Touchdown Start", "category": "maneuver" },
+  { "timestamp": 4.3, "event_id": "drone1-touchdown", "display_name": "Drone 1 – Touchdown Complete", "category": "maneuver" },
+
+  { "timestamp": 4.2, "event_id": "drone1-shutdown", "display_name": "Drone 1 – Systems Shutdown Start", "category": "infrastructure" },
+  { "timestamp": 4.8, "event_id": "drone1-shutdown", "display_name": "Drone 1 – Systems Fully Shutdown", "category": "infrastructure" }
+]

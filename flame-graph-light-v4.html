@@ -1873,6 +1873,7 @@
               this.processEventData();
               this.updateStatistics();
               this.render();
+              this.updateAnalysisPanel();
               this.log('info', `Imported ${this.state.spans.length} events from ${file.name}`);
             } else {
               throw new Error('No valid events found in file');
@@ -2022,23 +2023,6 @@
       }
 
       log(level, message) {
-        if (!this.eventLog) {
-          this.eventLog = [];
-        }
-
-        const entry = {
-          timestamp: new Date().toLocaleTimeString(),
-          level,
-          message
-        };
-
-        this.eventLog.push(entry);
-
-        // Keep only last 100 entries
-        if (this.eventLog.length > 100) {
-          this.eventLog.shift();
-        }
-
         console.log(`[${level.toUpperCase()}] ${message}`);
       }
 
@@ -2081,3 +2065,4 @@
 
 </body>
 </html>
+
